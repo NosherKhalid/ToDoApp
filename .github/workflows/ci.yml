@@ -24,6 +24,6 @@ jobs:
     - name: Build and Run Tests
       run: |
         xcodebuild clean test \
-          -scheme ToDoAppScheme \
+          -scheme ToDoApp \
           -destination 'platform=macOS' \
           -enableCodeCoverage YES
